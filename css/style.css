@@ -80,9 +80,6 @@ header{
 
 .footer-section div{
     margin: 0 10px;
-    border-radius:30px;
-    border: white solid 2px;
-    padding: 10px 15px;
 }
 
 footer i{
@@ -138,6 +135,10 @@ footer i{
 
 @media screen and (max-width: 480px){
 
+    body{
+        background-image: url("../images/bg-mobile.svg");
+    }
+
     .logotipo{
         width: 140px;
 
@@ -170,7 +171,7 @@ footer i{
     }
 
     .footer-section div{
-        margin: 0 4px;
+        margin: 0 8px;
 
     }
 }
