@@ -34,7 +34,6 @@ header{
 .section-main{
     display: flex;
     justify-content: center;
-    justify-items: center;
 }
 .imagen-main{
     margin-right: 50px;
@@ -89,4 +88,106 @@ header{
 footer i{
     color: white;
     font-size: 20px;
+}
+
+@media screen and (max-width: 1024px){
+    .imagen-main img{
+        width: 500px;
+    }
+    
+    .article-div{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    header{
+        height: 120px;
+    }
+
+
+    .logotipo{
+        width: 150px;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+
+
+    .imagen-main{
+        margin-right: 25px;
+    }
+
+    .imagen-main img{
+        width: 400px;
+    }
+    
+    .article-div{
+        width: 320px;
+    }
+    .article-div p{
+        font-size: 20px;
+    }
+    .section-main .boton a{
+        padding: 10px 60px;
+    }
+    .footer-section{
+        margin-right: 70px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 480px){
+
+    .logotipo{
+        width: 140px;
+
+    }
+    .section-main{
+        flex-wrap: wrap;
+        
+    }
+
+    .imagen-main{
+        margin-right: 0;
+    }
+
+    .imagen-main img{
+        width: 330px;
+    }
+
+    .article-div{
+       text-align: center;
+    }
+
+    .section-main .boton{
+        margin: 40px 0px 60px 0px;
+    }
+
+    .footer-section{
+        justify-content: center;
+        margin-right: 0px;
+        margin-top: 10px;
+    }
+
+    .footer-section div{
+        margin: 0 4px;
+
+    }
+}
+
+@media screen and (max-width: 320px){
+    .imagen-main img{
+        width: 300px;
+    }
+
+    .article-div{
+        width: 300px;
+     }
+
+     .logotipo{
+        width: 120px;
+        margin-top: 20px;
+        margin-left: 30px;
+
+    }
 }
